@@ -29,7 +29,7 @@ public class RegisterController extends HttpServlet {
 
                 request.setAttribute( "register", register );
 
-                request.getRequestDispatcher( "/WEB-INF/flows/register/register.jsp" ).forward( request, response );
+                request.getRequestDispatcher( "/index.jsp" ).forward( request, response );
 
         }
 
